@@ -5,7 +5,7 @@
 }
 
 #header {
-	background: url('../images/back.png');
+	background: url('../images/back.PNG');
 	/*background:white;*/
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -267,7 +267,7 @@ a {
 	 bottom: 0px;*/
 	height: 50px;
 	z-index: 999;
-	background: url('../images/back1.PNG');
+	background: url('../images/back1.png');
 	background-size: 100%;
 }
 #splashfooter {
