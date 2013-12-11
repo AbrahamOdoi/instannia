@@ -13,7 +13,7 @@
 
 	</head>
 	<body>
-		<div data-role='page' style=" width: 100%; height: 100%;padding-bottom:200px;padding-top:100px; background: #57004f;">
+		<div data-role='page' style=" width: 100%; height: 500%;padding-bottom:200px;padding-top:100px; background: #57004f;">
 			<img src="1.png" width="50%" height="70%" id='1' class='splashimg1' style="display:none; position: fixed; bottom: 0px; width: 100%;margin: auto;"/>
 			<img src="2.png" width="50%" height="70%" id='2' class='splashimg1' style="display:none; position: fixed; bottom: 0px; width: 100%;margin: auto;"/>
 			<img src="3.png" width="50%" height="70%" id='3' class='splashimg1' style="display:none; position: fixed; bottom: 0px; width: 100%;margin: auto;"/>
@@ -26,8 +26,8 @@
 		$('#1').slideDown(3000, function() {
 			$('#2').fadeIn(3000, function() {
 				$('#3').slideDown(2000, function() {
-					// window.location = 'mainpage.php';
-					window.location = 'http://216.224.161.207/instannia/mainpage.php';
+					window.location = 'mainpage.php';
+					// window.location = 'http://216.224.161.207/instannia/mainpage.php';
 				});
 			});
 		});
